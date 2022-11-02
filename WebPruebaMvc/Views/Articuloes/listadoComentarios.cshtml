@@ -1,0 +1,48 @@
+﻿@model ICollection<ClaseConPruebaMigraciones.Comentario>
+@{
+    ViewBag.Title = "listadoComentarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var idArt = 0;
+}
+
+<h2>Listado de los comentarios</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Autor</th>
+            <th>Cuerpo</th>
+            <th>Fecha</th>
+            <th>ArticuloId</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr> 
+                @{
+                    idArt = item.ArticuloId;
+                 }
+                <td>
+                    @item.Autor
+                </td>
+                <td>
+                    @item.Cuerpo
+                </td>
+                <td>
+                    @item.Fecha.ToString()
+                </td>
+                <td>
+                    @item.ArticuloId.ToString()
+                </td>
+                <td>
+                    @Html.ActionLink("Eliminar", "DeleteComentario", new { id = item.Id })
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "EditComentario", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@Html.ActionLink("Añadir comentario", "AnadirComentario", new {id=idArt})

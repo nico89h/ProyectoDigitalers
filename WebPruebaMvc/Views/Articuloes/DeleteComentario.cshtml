@@ -1,0 +1,36 @@
+﻿@model ClaseConPruebaMigraciones.Comentario
+@{
+    ViewBag.Title = "DeleteComentario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Esta seguro de borrar el comentario de datos: </h2>
+<section>
+    <p>Autor: @Model.Autor</p>
+    <p>Cuerpo: @Model.Cuerpo</p>
+    <p>Fecha: @Model.Fecha.ToString()</p>
+    @*Profe, porfavor apruebeme jajajaja no hice algo muy bueno porque la verdad me 
+        atrase con la fac, disculpe
+        *Quisiera mencionar que el diagrama de clases, utilice una relacion ciclica
+        *Utilice una relacion de 1 a n en el diagrama de entidad-relacion
+        *@
+    @if (ViewBag.Message == null)
+    {
+        <p>Nombre del articulo: @ViewData["Articulo"].ToString()</p>
+    }
+    else
+    {
+        <p>No se pudo encontrar el articulo al cual pertenece</p>
+    }
+    
+
+
+<form class="form-actions no-color" method="post">
+    @Html.AntiForgeryToken()
+    <input type="submit" value="Borrar" class="btn btn-default"/> 
+    @Html.ActionLink("Lista de comentarios", "ComentarioIndex")
+</form>
+    
+
+</section>
+

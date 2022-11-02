@@ -1,0 +1,14 @@
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\obj\Debug\BibliotecaBaseDatos.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\obj\Debug\BibliotecaBaseDatos.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\bin\Debug\BibliotecaBaseDatos.dll.config
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\bin\Debug\BibliotecaBaseDatos.dll
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\bin\Debug\BibliotecaBaseDatos.pdb
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\bin\Debug\EntityFramework.dll
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\bin\Debug\EntityFramework.xml
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\obj\Debug\BibliotecaBaseDatos.csproj.CopyComplete
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\obj\Debug\BibliotecaBaseDatos.dll
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\obj\Debug\BibliotecaBaseDatos.pdb
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\obj\Debug\BibliotecaBaseDatos.Migrations.primera.resources
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\BibliotecaBaseDatos\obj\Debug\BibliotecaBaseDatos.csproj.GenerateResource.cache

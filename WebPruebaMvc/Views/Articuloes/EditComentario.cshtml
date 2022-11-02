@@ -1,0 +1,47 @@
+﻿@model ClaseConPruebaMigraciones.Comentario
+@{
+    ViewBag.Title = "EditComentario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Editar comentario</h2>
+@if (ViewBag.Message!=null)
+    {
+        <h2>No se pudo encontrar el articulo solicitado</h2>
+    }
+@if (Model == null)
+    {
+        <p>Hubo problemas al encontrar el comentario solicitado</p>
+    }
+else
+    {
+        <form method="post">
+            @Html.AntiForgeryToken()
+            <div class="form-group">
+                <label for="Autor">Autor</label>
+                <input type="text" class="form-control" id="Autor" value=@Model.Autor name="Autor">
+            </div>
+            <div class="form-group">
+                <label for="Cuerpo">Cuerpo</label>
+                <input type="text" class="form-control" id="Cuerpo" value=@Model.Cuerpo name="Cuerpo">
+            </div>
+            <div class="form-group">
+                <label for="Fecha">Fecha</label>
+                <input type="date" class="form-control" id="Fecha" value=@Model.Fecha name="Fecha">
+            </div>
+            <div class="form-group">
+                <label for="ArticuloId">Id del articulo</label>
+                <input type="number" class="form-control" id="ArticuloId" value=@Model.ArticuloId name="ArticuloId" readonly>
+            </div>
+            @*<label for="autor">Autor</label>
+            <input type="text" value=@Model.Autor id="autor" name="Autor" />
+            <label for="cuerpo">Cuerpo</label>
+            <input type="text" value=@Model.Cuerpo name="Cuerpo" id="cuerpo" />
+            <label for="fecha">Fecha</label>
+            <input type="date" value=@Model.Fecha name="Fecha" id="fecha" />
+            <label for="fecha">Id del articulo</label>
+            <input type="number" value=@Model.ArticuloId name="ArticuloId" />*@
+    
+            <input type="submit" value="enviar" class="btn btn-default"/>
+        </form>
+}

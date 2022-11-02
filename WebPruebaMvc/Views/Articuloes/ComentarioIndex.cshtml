@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ClaseConPruebaMigraciones.Comentario>
+@{
+    ViewBag.Title = "Comentarios";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Comentarios</h2>
+@if (Model.Any())
+{
+    <caption>@Html.ActionLink("Añadir comentario", "CreateComentario")</caption>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Autor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Cuerpo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fecha)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ArticuloId)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.Autor
+                    </td>
+                    <td>
+                        @item.Cuerpo
+                    </td>
+                    <td>
+                        @item.Fecha.ToString()
+                    </td>
+                    <td>
+                        @item.ArticuloId.ToString()
+                    </td>
+                    <td>
+                        @Html.ActionLink("Eliminar", "DeleteComentario", new { id = item.Id })
+                    </td>
+
+                    <td>
+                        @Html.ActionLink("Editar", "EditComentario", new { id = item.Id })
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+}
+else
+{
+    <p>No hay ningun comentario</p>
+    @Html.ActionLink("Añadir comentario", "CreateComentario")
+}
+

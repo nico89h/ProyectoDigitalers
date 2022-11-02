@@ -1,0 +1,16 @@
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\bin\Debug\ClaseConPruebaMigraciones.dll.config
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\bin\Debug\ClaseConPruebaMigraciones.dll
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\bin\Debug\ClaseConPruebaMigraciones.pdb
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\bin\Debug\EntityFramework.dll
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\bin\Debug\EntityFramework.xml
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\obj\Debug\ClaseConPruebaMigraciones.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\obj\Debug\ClaseConPruebaMigraciones.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\obj\Debug\ClaseConPruebaMigraciones.csproj.CopyComplete
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\obj\Debug\ClaseConPruebaMigraciones.dll
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\obj\Debug\ClaseConPruebaMigraciones.pdb
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\obj\Debug\ClaseConPruebaMigraciones.Migrations.primera.resources
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\obj\Debug\ClaseConPruebaMigraciones.csproj.GenerateResource.cache
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\obj\Debug\ClaseConPruebaMigraciones.Migrations.segunda.resources
+C:\Users\user\OneDrive\Escritorio\Global-learning\codigo-Clase\Mvc-Framework\PruebaMvcFrameworkBd\ClaseConPruebaMigraciones\obj\Debug\ClaseConPruebaMigraciones.Migrations.tercera.resources
